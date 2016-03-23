@@ -74,6 +74,10 @@ curriedSum(40)(2) // 42.
 
 ---
 
+## Eta reduction
+
+The process of converting a function to [Point-Free Style](#point-free-style). 
+
 ## Purity
 
 > A function is said to be pure if the return value is only determined by its
@@ -141,6 +145,7 @@ let incrementAll2 = map(add(1));
 
 Points-free function definitions look just like normal assignments without `function` or `=>`.
 
+The process of converting a function to point-free style is called [Eta reduction](#eta-reduction).
 ---
 
 ## Contracts
